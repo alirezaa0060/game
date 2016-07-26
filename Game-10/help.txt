@@ -1,0 +1,3 @@
+Press X to move right.
+Z to move left.
+R to restart the game.
