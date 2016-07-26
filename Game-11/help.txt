@@ -1,0 +1,1 @@
+This is an example of Untangle Puzzle Game in Canvas.

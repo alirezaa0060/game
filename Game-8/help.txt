@@ -1,0 +1,3 @@
+Press the screen to jump.
+  Avoid the obstacles.
+  Collect the game coins.

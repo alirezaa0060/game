@@ -1,0 +1,1 @@
+This is an example of making audio game in HTML5. Press J, K, L to play.

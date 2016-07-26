@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <!--   HTML   Games    Api  -  Developed  BY  Jacki  Team   -->
+  <!--         CopyRight2016-JackiTeam                        -->
+  <!--         _            _    _   _____                    -->
+  <!--       | | __ _  ___| | _(_) |_   _|__  __ _ _ __ ___   -->
+  <!--   _  | |/ _` |/ __| |/ / |   | |/ _ \/ _` | '_ ` _ \   -->
+  <!-- | |_| | (_| | (__|   <| |   | |  __/ (_| | | | | | |   -->
+  <!-- \___/ \__,_|\___|_|\_\_|   |_|\___|\__,_|_| |_| |_|    -->
+  <meta charset='utf-8'>
+  <title>HTML Games - Jacki Team</title>
+  <link rel="stylesheet" href="css/rush-game.css">
+<link rel="shortcut icon" href="jacki.ico" type="img/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Rush</h1>
+  </header>
+  <div id='game'>
+    <canvas id='game-canvas' width='480' height='320'></canvas>
+    <div id='score'>0</div>
+    <div id='menu' class='scene hidden'>
+      <a id='start-btn' href='#'></a>
+    </div>
+    <div id='gameover' class='scene hidden'>
+      <div id='your-game-score'>Your Score is 100</div>
+      <div id='top-scores'></div>
+      <a id='restart-btn' href='#'></a>
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='half'>
+      <h2>Top Scores</h2>
+      <div id='top-scores-board'></div>
+    </div>
+  </div>
+
+  <div class='row hr'>
+    <hr>
+  </div>
+
+
+  <!-- The scripts should be concatenate and minify before deploy to production -->
+  <script type="text/javascript" src='vendors/easeljs-0.7.1.min.js'></script>
+  <script type="text/javascript" src='js/game.js'></script>
+  <script type="text/javascript" src='js/rush-preloader.js'></script>
+  <script type="text/javascript" src='js/rush-common-shapes.js'></script>
+  <script type="text/javascript" src='js/rush-gameobject.js'></script>
+  <script type="text/javascript" src='js/rush-movable-gameobject.js'></script>
+  <script type="text/javascript" src='js/rush-platform.js'></script>
+  <script type="text/javascript" src='js/rush-obstacle.js'></script>
+  <script type="text/javascript" src='js/rush-coin.js'></script>
+  <script type="text/javascript" src='js/rush-hero.js'></script>
+  <script type="text/javascript" src='js/rush-topscores.js'></script>
+  <script type="text/javascript" src='js/rush-game.js'></script>
+
+</body>
+</html>
