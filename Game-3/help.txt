@@ -1,0 +1,3 @@
+Control snake with arrow keys, WASD, or HJKL (vim keys).
+New food may appear under snake, uncoil to reveal.
+Collect the food to grow and increase speed.
