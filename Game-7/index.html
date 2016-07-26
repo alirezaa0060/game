@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--   HTML   Games    Api  -  Developed  BY  Jacki  Team   -->
+	<!--         CopyRight2016-JackiTeam                        -->
+	<!--         _            _    _   _____                    -->
+	<!--       | | __ _  ___| | _(_) |_   _|__  __ _ _ __ ___   -->
+	<!--   _  | |/ _` |/ __| |/ / |   | |/ _ \/ _` | '_ ` _ \   -->
+	<!-- | |_| | (_| | (__|   <| |   | |  __/ (_| | | | | | |   -->
+	<!-- \___/ \__,_|\___|_|\_\_|   |_|\___|\__,_|_| |_| |_|    -->
+	<meta charset="utf-8">
+	<title>HTML Games - Jacki Team</title>
+	<style>
+		#playground{
+			background: #e0ffe0;
+			width: 400px;
+			height: 200px;
+			position: relative;
+			overflow: hidden;
+		}
+		#ball {
+			background: #fbb;
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			left: 150px;
+			top: 100px;
+			border-radius: 10px;
+		}
+		.paddle {
+			background: #bbf;
+			left: 50px;
+			top: 70px;
+			position: absolute;
+			width: 30px;
+			height: 70px;
+		}
+		#paddleB {
+			left: 320px;
+		}
+	</style>
+ <link rel="shortcut icon" href="jacki.ico" type="img/x-icon">
+</head>
+<body>
+	<header>
+			<h1>Ping Pong</h1>
+	</header>
+	<div id="game">
+		<div id="scoreboard">
+			<div class="score">Player A : <span id="scoreA">0</span></div>
+			<div class="score">Player B : <span id="scoreB">0</span></div>
+		</div>
+		<div id="playground">
+			<div id="paddleA" class="paddle"></div>
+			<div id="paddleB" class="paddle"></div>
+			<div id="ball"></div>
+		</div>
+		<div id="spectators"></div>
+	</div>
+
+	<script src="js/jquery-1.4.3.js"></script>
+	<script src="js/html5games.pingpong.js"></script>
+</body>
+</html>
