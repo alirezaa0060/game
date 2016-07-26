@@ -4,4 +4,4 @@ HTML Games Api For Free
 -------------------------------------------------------
 -------------------------------------------------------
 
-<a href="jacki-team.github.io/Game-Api">DEMO :)</a>
+<a href="http://jacki-team.github.io/Game-Api">DEMO :)</a>
